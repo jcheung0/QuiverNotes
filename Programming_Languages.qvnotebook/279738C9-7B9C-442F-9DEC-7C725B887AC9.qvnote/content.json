@@ -1,0 +1,22 @@
+{
+  "title": "Front-End Web",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<h2>HTML5</h2><div>LocalStorage</div><div>IndexedDB</div><div>Shared Web Workers</div><div>Web Workers</div><div>WebSockets</div>"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "//Sample of websockets\n// Create a new WebSocket.\nvar socket = new WebSocket('ws://echo.websocket.org');\n\n// Show a connected message when the WebSocket is opened.\nsocket.onopen = function(event) {\n  socketStatus.innerHTML = 'Connected to: ' + event.currentTarget.URL;\n  socketStatus.className = 'open';\n};\n\n// Handle any errors that occur.\nsocket.onerror = function(error) {\n  console.log('WebSocket Error: ' + error);\n};\n\nsocket.send(data);\n\n\n// Retrieve the message from the textarea.\nvar message = messageField.value;\n\n// Send the message through the WebSocket.\nsocket.send(message);\n\n// Handle messages sent by the server.\nsocket.onmessage = function(event) {\n  var message = event.data;\n};\n\nsocket.close();\n\n"
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": "<h2>CSS3</h2>"
+    }
+  ]
+}

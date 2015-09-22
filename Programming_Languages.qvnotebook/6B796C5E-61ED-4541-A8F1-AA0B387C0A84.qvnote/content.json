@@ -1,0 +1,14 @@
+{
+  "title": "Java",
+  "cells": [
+    {
+      "type": "text",
+      "data": "Akka<div>&nbsp; Asynchronous Runtime</div><div><br></div>"
+    },
+    {
+      "type": "code",
+      "language": "java",
+      "data": "import java.util.ArrayList;\n\npublic class SampleClass extends ParentClass{\n  int integerType;\n  float floatType;\n  double doubleType;\n  byte[] value;\n  char c;\n  \n  \n  //Entry point for java application\n  public static void main(String args[]){\n    System.out.println(\"this is a print statement\");\n    \n    //initialized list with a generic\n    ArrayList list = new ArrayList<String>()\n    \n    //use super to call parent call method\n    super.parentMethod();\n    \n    //Iterator for a list\n    for (String c : SampleList){\n      \n    }\n    //normal for loop in java\n    for(int i = 0; i < list.size();i++){\n      \n    }\n  \n    \n    \n  }\n}"
+    }
+  ]
+}

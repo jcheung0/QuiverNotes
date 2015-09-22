@@ -1,0 +1,10 @@
+{
+  "title": "Ruby ",
+  "cells": [
+    {
+      "type": "code",
+      "language": "ruby",
+      "data": "for i in 1..5\n  puts 'test loop'\nend\n\n#iterator\n(0..5).each do |i|\n  puts 'value of varialbe is #{i}'\nend\n\n#alternate style of doing a loop\nbegin\n  puts ('inside loop #$i')\n  $i +=1;\nend until $i > $num\n\nretry \nredo\n\n#sample of a function in ruby\ndef functionname(variable)\n  return <value> \nend\n\n\n#Sample of a class in ruby\nclass Mammal\n  def breathe\n    puts\" breathing\"\n  end\n#sample of inheritance in ruby\nclass Cat < Mammal\n  def speak\n    puts \"meow\"\n  end\nend\n\n\n"
+    }
+  ]
+}

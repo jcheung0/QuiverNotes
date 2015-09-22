@@ -1,0 +1,10 @@
+{
+  "title": "Bash",
+  "cells": [
+    {
+      "type": "code",
+      "language": "sh",
+      "data": "~/.bashrc"
+    }
+  ]
+}

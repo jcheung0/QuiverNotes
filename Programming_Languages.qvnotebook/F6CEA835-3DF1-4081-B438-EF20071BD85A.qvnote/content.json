@@ -1,0 +1,18 @@
+{
+  "title": "R",
+  "cells": [
+    {
+      "type": "code",
+      "language": "r",
+      "data": "?rnorm\n\nhelp.search(\"rNorm\")\nargs(\"rnorm\")\n\nlapply()\n"
+    },
+    {
+      "type": "text",
+      "data": "<div><div>http://cran.r-project.org/doc/contrib/short-refcard.pdf</div></div><div>AdaBoost</div>"
+    },
+    {
+      "type": "text",
+      "data": "Based on S programming language<div>JCGS Paper R</div><div><br></div>"
+    }
+  ]
+}

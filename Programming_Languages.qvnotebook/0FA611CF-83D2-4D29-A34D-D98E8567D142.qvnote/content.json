@@ -1,0 +1,14 @@
+{
+  "title": "Objective C",
+  "cells": [
+    {
+      "type": "text",
+      "data": "Message sending<div><br></div><div><br></div>"
+    },
+    {
+      "type": "code",
+      "language": "objectivec",
+      "data": "[self score]\n\nvoid (^simpleBlock)(void);\n//Block Syntax\n^{\n  NSLog(@\"This is a block\");\n}\n\ndouble (^multiplyTwoValues)(yea double, double) =\n                              ^(double firstValue, double secondValue) {\n                                  return firstValue * secondValue;\n                              };\n \ndouble result = multiplyTwoValues(2,4);\n \nNSLog(@\"The result is %f\", result);\n\n\n- (void)testMethod {\n    int anInteger = 42;\n \n    void (^testBlock)(void) = ^{\n        NSLog(@\"Integer is: %i\", anInteger);\n    };\n \n    testBlock();\n}\n\n//protocols\n@protocol ProtocolName\n  - (NSUInteger)numberOfSegments;\n  - (CGFloat)sizeOfSegmentAtIndex:(NSUInteger)segmentIndex;\n  - (NSString *)titleForSegmentAtIndex:(NSUInteger)segmentIndex;\n@end"
+    }
+  ]
+}

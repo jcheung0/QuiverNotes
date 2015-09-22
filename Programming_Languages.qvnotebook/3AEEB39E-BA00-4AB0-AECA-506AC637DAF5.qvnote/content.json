@@ -1,0 +1,14 @@
+{
+  "title": "Python",
+  "cells": [
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "data": "Class foo ():\n  def __init__():\n    self.test = "
+    }
+  ]
+}
